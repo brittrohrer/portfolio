@@ -123,4 +123,25 @@ footer {
     background: #E09145;
     color: #17181D;
 }
-
+.about-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17181D;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+}
+.about-box img {
+    filter: grayscale(80);
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    float: right;
+}
+.text {
+ font-size: 20px;
+ padding: 1rem;
+ float:left;
+}
