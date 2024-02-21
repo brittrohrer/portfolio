@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #292C35;
+    background-image: url(../images/world-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #fbf5e9;
     font-family: verdana,sans-serif;
 }
 header {
@@ -11,31 +15,32 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #17181D;
-    color: #FCD9B8;
+    background-color: #bbc2b3;
+    color: #889486;
 }
 main {
     margin: 1rem;
     padding: 1rem;
 }
 h1 {
-    color: #FCD9B8;
+    color: #fbf5e9;
     padding-left: 1rem;
 }
+
 article p {
-    color:#E09145;
+    color: #889486;
     text-align: left;
 }
 article h2 {
     text-align: center;
-    font-size: 30px;
-    color: #FCD9B8;
+    font-size: 40px;
+    color: #c37a67;
 }
 article ul {
-    color:#E09145
+    color:#c37a67
 }
 footer {
-    color: #FCD9B8;
+    color: #889486;
     font-size: 15px;
     text-align: center;
 }
@@ -51,17 +56,19 @@ footer {
 }
 .main-navigation a {
     text-decoration: none;
-    color: #FCD9B8;
+    color: #889486;
     padding: 1rem;
 }
 .main-navigation a:hover {
-    background: #E09145;
-    color: #17181D;
+    background: #889486;
+    color: #fbf5e9;
 }
 
 
 .welcome {
     text-align: center; 
+    font-size: 90px;
+    padding-bottom: 10rem;
 } 
 .heavy-font {
     font-size: 90px;
@@ -70,26 +77,13 @@ footer {
 .less {
     font-size: 15px;
 }
-.umf {
-    font-size: 30px;
-    padding-bottom: 10rem;
-}
-.glow {
-    color: #17181D;
-    text-shadow: 0 0 0px #fff,
-        0 0 5px #fff,
-        0 0 10px #fff,
-        0 0 20px #E09145,
-        0 0 30px #E09145,
-        0 0 40px #E09145,
-        0 0 55px #E09145,
-        0 0 70px #E09145;
-}
 
-
+.opac {
+    background-color: #fbf5e999;
+}
 
 .gallery {
-    background-color: #333;
+    background-color: #fbf5e9;
     overflow: auto;
     white-space: nowrap;
     padding: .5rem;
@@ -120,13 +114,15 @@ footer {
     padding: 2rem;
 }
 .work-gallery a {
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
     padding: 1rem;
-    color:#E09145;
+    color: #c37a67;
 }
 .work-gallery a:hover {
-    background: #E09145;
-    color: #17181D;
+    background: #c37a67;
+    color: #fbf5e9;
 }
 
 
@@ -134,14 +130,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #17181D;
     height: auto;
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 2rem;
 }
 .about-box img {
-    filter: grayscale(80);
     width: 300px;
     height: 300px;
     object-fit: cover;
