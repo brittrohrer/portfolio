@@ -1,12 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../images/world-map.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #fbf5e9;
+    background-color: #f6f6f6;
     font-family: verdana,sans-serif;
 }
 header {
@@ -16,32 +11,32 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #bbc2b3;
-    color: #889486;
+    background-color: #293133;
+    color: #8daba7;
 }
 main {
     margin: 1rem;
     padding: 1rem;
 }
 h1 {
-    color: #fbf5e9;
+    color: #f6f6f6;
     padding-left: 1rem;
 }
 
 article p {
-    color: #889486;
+    color: #293133;
     text-align: left;
 }
 article h2 {
     text-align: center;
     font-size: 40px;
-    color: #c37a67;
+    color: #bf5d39;
 }
 article ul {
-    color: #889486
+    color: #293133
 }
 footer {
-    color: #889486;
+    color: #293133;
     font-size: 15px;
     text-align: center;
 }
@@ -57,12 +52,12 @@ footer {
 }
 .main-navigation a {
     text-decoration: none;
-    color: #889486;
+    color: #8daba7;
     padding: 1rem;
 }
 .main-navigation a:hover {
-    background: #889486;
-    color: #fbf5e9;
+    background: #8daba7;
+    color: #293133;
 }
 
 
@@ -70,6 +65,7 @@ footer {
     text-align: center; 
     font-size: 90px;
     padding-bottom: 10rem;
+    color:#293133
 } 
 .heavy-font {
     font-size: 90px;
@@ -79,12 +75,9 @@ footer {
     font-size: 15px;
 }
 
-.opac {
-    background-color: #fbf5e999;
-}
 
 .gallery {
-    background-color: #fbf5e999;
+    background-color: #f6f6f6;
     overflow: auto;
     white-space: nowrap;
     padding: .5rem;
@@ -95,19 +88,15 @@ footer {
   object-fit: cover;
   padding: 1rem;
 }
-.shadow {
-    text-shadow: 0 0 8px #fbf5e9;
-}
 
-
-.work-gallery{
+.work-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
 }
 .work-gallery li {
-    flex-basis: 350px;
+    flex-basis: auto;
     list-style-type: none;
 }
 .work-gallery img {
@@ -116,7 +105,12 @@ footer {
     object-fit: cover;
     vertical-align: middle;
     padding: 2rem;
+    border-radius: 20%;
 }
+.work-gallery img:hover {
+    opacity: .5;
+}
+
 .work-gallery a {
     font-size: 20px;
     text-decoration: none;
@@ -124,7 +118,7 @@ footer {
     color: #889486;
 }
 .work-gallery a:hover {
-    background: #c37a67;
+    background: #bf5d39;
     color: #fbf5e9;
 }
 
@@ -141,6 +135,7 @@ footer {
 .about-box img {
     width: 300px;
     height: 300px;
+    border-radius: 20%;
     object-fit: cover;
     float: right;
 }
