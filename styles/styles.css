@@ -95,6 +95,9 @@ footer {
   object-fit: cover;
   padding: 1rem;
 }
+.shadow {
+    text-shadow: 0 0 8px #fbf5e9;
+}
 
 
 .work-gallery{
