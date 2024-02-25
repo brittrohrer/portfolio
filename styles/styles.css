@@ -37,7 +37,8 @@ article ul {
     color: #293133
 }
 footer {
-    color: #293133;
+    background: #293133;
+    color: #8daba7;
     font-size: 15px;
     text-align: center;
 }
@@ -66,30 +67,33 @@ footer {
     padding: 1rem;
     text-align: center;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 70px;
     color: #293133;
 } 
 
 .welcome-desc {
-    font-size: 60px;
+    font-size: 90px;
     color: #8daba7;
     text-align: center; 
     padding-bottom: 10rem;
 }
 .heavy-font {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
 }
 .less {
-    font-size: 15px;
+    font-size: 30px;
 }
-
-
+.gallery-sect {
+    border-style: dotted;
+    border-color: #8daba7;
+}
 .gallery {
     background-color: #f6f6f6;
     overflow: auto;
     white-space: nowrap;
     padding: .5rem;
+
 }
 .gallery img {
   width: 200px;
@@ -107,10 +111,10 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+
 }
 .work-gallery li {
     list-style-type: none;
-    
 }
 .proj-name {
     color: #293133;
@@ -146,9 +150,11 @@ footer {
     justify-content: center;
     align-items: center;
     height: auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    border-style: dotted;
+    border-color: #8daba7;
 }
 .about-box img {
     width: 300px;
@@ -183,5 +189,15 @@ footer {
     vertical-align: middle;
     background: #293133;
     background: linear-gradient(135deg, #293133, #8daba7);
+    box-shadow: 2px 2px 4px #293133;
     color: #f6f6f6;
+}
+.bubble:hover {
+    transform: scale(1.2);
+}
+
+.edu {
+    list-style-position: inside;
+    text-align: center;
+    font-size: 30px;
 }
