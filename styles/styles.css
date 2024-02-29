@@ -2,6 +2,15 @@ body {
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
     margin: 0;
+    /*background-color: #f6f6f6;*/
+    background:
+      radial-gradient(circle farthest-side at 0% 50%,#f6f6f6 23.5%,#0000 0)42px 60px,
+      radial-gradient(circle farthest-side at 0% 50%,#8daba720 24%,#0000 0)38px 60px,
+      linear-gradient(#f6f6f6 14%,#0000 0, #0000 85%,#f6f6f6 0)0 0,
+      linear-gradient(150deg,#f6f6f6 24%,#8daba720 0,#8daba720 26%,#0000 0,#0000 74%,#8daba720 0,#8daba720 76%,#f6f6f6 0)0 0,
+      linear-gradient(30deg,#f6f6f6 24%,#8daba720 0,#8daba720 26%,#0000 0,#0000 74%,#8daba720 0,#8daba720 76%,#f6f6f6 0)0 0,
+      linear-gradient(90deg,#8daba720 2%,#f6f6f6 0,#f6f6f6 98%,#8daba720 0%)0 0 #f6f6f6;
+    background-size: 80px 120px;
     background-color: #f6f6f6;
     
 }
@@ -10,27 +19,27 @@ main {
 }
 h1 {
     font-size: 20px;
-    color: #f6f6f6;
+    color: #e2e4e1;
     padding-left: 3rem;
 }
 h2 {
     text-align: center;
     font-size: 40px;
-    color: #bf5d39;
+    color: #1e434c;
 }
 
 footer {
     position: absolute;
     width: 100%;
     text-align: center;
-    color: #8daba7;
+    color: #e2e4e1;
     font-size: 15px;
-    background: #293133;
+    background: #1e434c;
     height: auto;
 }
 .border {
     border-style: dotted;
-    border-color: #8daba7;
+    border-color: #b0c3bf;
 }
 
 
@@ -42,8 +51,8 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #293133;
-    color: #8daba7;
+    background-color: #1e434c;
+    color: #b0c3bf;
 }
 .main-navigation ul {
     list-style-type: none;
@@ -55,12 +64,12 @@ header {
 }
 .main-navigation a {
     text-decoration: none;
-    color: #8daba7;
+    color: #b0c3bf;
     padding: 1rem;
 }
 .main-navigation a:hover {
-    background: #8daba7;
-    color: #293133;
+    background: #b0c3bf;
+    color: #1e434c;
     border-radius: 10%;
 }
 
@@ -75,12 +84,12 @@ header {
 .hero-box h2 {
     font-size: 90px;
     font-weight: bold;
-    color: #293133;
+    color: #1e434c;
     margin: 1rem;
 } 
 .hero-box p {  
     font-size: 70px;
-    color: #8daba7;
+    color: #b0c3bf;
     font-family: "Monoton", sans-serif;
     margin: 1rem;
 }
@@ -92,17 +101,17 @@ header {
     height: 400px;
     object-fit: cover;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    background-color: #293133;
+    background-color: #1e434c;
 }
 
 .github-container {
     display: block;
     text-align: center;
     text-decoration: none; 
-    color: #f6f6f6;
+    color: #e2e4e1;
     margin: 1rem 42rem;
     padding-bottom: 1rem; 
-    background-color: #293133;
+    background-color: #1e434c;
     border-radius: 20%;
 }
 .github-container i {
@@ -112,7 +121,7 @@ header {
     color: #f6f6f6;   
 }
 .github-container:hover {
-    background-color: #8daba7;
+    background-color: #b0c3bf;
 }
 
 
@@ -128,7 +137,7 @@ header {
     list-style-type: none;
 }
 .mywork-section p {
-    color: #293133;
+    color: #171e26;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -148,22 +157,25 @@ header {
 }
 .links a {
     text-decoration: none;
-    background: #8daba7;
-    color:#f6f6f6;
+    background: #b0c3bf;
+    color:#1e434c;
     font-size: 15px;
     padding: 1rem;
     text-align: center;
 }
 .mywork-section a:hover {
-    background:#293133;
+    background:#1e434c;
+    color: #e2e4e1;
 }
 
 
 .about-me-homepage {
     text-align: center;
+    color: #171e26;
 }
 .homepage-a {
     text-decoration: none;
+    color:#bf5d39
 }
 
 
@@ -190,7 +202,7 @@ header {
 }
 .about-box h2 {
     font-size: 40px;
-    color: #8daba7;
+    color: #1e434c;
     text-align: left;
 }
 
@@ -199,7 +211,7 @@ header {
 
 
 .gallery {
-    background-color: #f6f6f6;
+    background-color: #e2e4e1;
     overflow: auto;
     white-space: nowrap;
 }
@@ -233,10 +245,10 @@ header {
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    background: #293133;
-    background: linear-gradient(135deg, #293133, #8daba7);
-    box-shadow: 2px 2px 4px #293133;
-    color: #f6f6f6;
+    background: #e2e4e1;
+    background: linear-gradient(135deg, #b0c3bf, #1e434c);
+    box-shadow: 2px 2px 4px #1e434c;
+    color: #e2e4e1;
 }
 .bubble:hover {
     transform: scale(1.2);
@@ -265,14 +277,14 @@ header {
 }
 .social-links-container a {
     text-decoration: none;
-    color: #293133;
+    color: #1e434c;
 }   
 .social-links-container i {
     font-size: 80px;
     
 }
 .social-links-container a:hover {
-    color: #8daba7;
+    color: #b0c3bf;
 }
 
 .contacts p {
