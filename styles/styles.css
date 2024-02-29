@@ -92,6 +92,18 @@ header {
     background-color: #293133;
 }
 
+.github-container {
+    display: block;
+    text-align: center;
+    text-decoration: none; 
+    color: #293133;  
+}
+.github-container i {
+    display: block;
+    font-size: 90px;
+    color: #293133;
+ 
+}
 
 .mywork-section {
     display: flex;
@@ -223,3 +235,4 @@ header {
     margin-right: 12rem;
     font-size: 30px;
 }
+
