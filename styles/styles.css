@@ -211,7 +211,6 @@ header {
 
 
 .gallery {
-    background-color: #e2e4e1;
     overflow: auto;
     white-space: nowrap;
 }
