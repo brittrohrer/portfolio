@@ -2,7 +2,6 @@ body {
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
     margin: 0;
-    /*background-color: #f6f6f6;*/
     background:
       radial-gradient(circle farthest-side at 0% 50%,#f6f6f6 23.5%,#0000 0)42px 60px,
       radial-gradient(circle farthest-side at 0% 50%,#8daba720 24%,#0000 0)38px 60px,
@@ -243,8 +242,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    vertical-align: middle;
-    background: #e2e4e1;
     background: linear-gradient(135deg, #b0c3bf, #1e434c);
     box-shadow: 2px 2px 4px #1e434c;
     color: #e2e4e1;
