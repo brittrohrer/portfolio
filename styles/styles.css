@@ -161,6 +161,7 @@ header {
     font-size: 15px;
     padding: 1rem;
     text-align: center;
+    border-radius: 10%;
 }
 .mywork-section a:hover {
     background:#1e434c;
