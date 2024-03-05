@@ -91,13 +91,17 @@ header {
     color: #b0c3bf;
     font-family: "Monoton", sans-serif;
     margin: 1rem;
+    transition: color 1s linear;
+}
+.hero-box p:hover {
+    color: #bf5d39;
 }
 .hero-box figure {
     text-align: right;
 }    
 .hero-box img {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 450px;
     object-fit: cover;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     background-color: #1e434c;
@@ -108,15 +112,15 @@ header {
     text-align: center;
     text-decoration: none; 
     color: #e2e4e1;
-    margin: 1rem 42rem;
+    margin: 2rem 42rem;
     padding-bottom: 1rem; 
     background-color: #1e434c;
     border-radius: 20%;
 }
 .github-container i {
     display: block;
-    font-size: 90px;
-    padding-top: 1rem;
+    font-size: 50px;
+    padding: 1rem;
     color: #f6f6f6;   
 }
 .github-container:hover {
@@ -134,6 +138,11 @@ header {
 }
 .mywork-section li {
     list-style-type: none;
+    background: #f6f6f6;
+    border-color: #171e26;
+    box-shadow: 2px 2px 10px #171e26;
+    height: 500px;
+    border-radius: 5%;
 }
 .mywork-section p {
     color: #171e26;
@@ -157,13 +166,17 @@ header {
 .links a {
     text-decoration: none;
     background: #b0c3bf;
-    color:#1e434c;
+    color: #1e434c;
     font-size: 15px;
     padding: 1rem;
     text-align: center;
     border-radius: 10%;
 }
-.mywork-section a:hover {
+.links a:nth-child(odd) {
+    background: #bf5d39;
+    color: #e2e4e1;
+}
+.links a:hover {
     background:#1e434c;
     color: #e2e4e1;
 }
@@ -244,13 +257,16 @@ header {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #b0c3bf, #1e434c);
-    box-shadow: 2px 2px 4px #1e434c;
     color: #e2e4e1;
 }
-.bubble:hover {
+.bubble:nth-child(3n) {
+    background: linear-gradient(150deg, #1e434c, #b0c3bf);
+}
+.bubble:nth-child(3n-1) {
+    background: linear-gradient(75deg, #1e434c, #b0c3bf);
+}.bubble:hover {
     transform: scale(1.2);
 }
-
 
 .edu {
     text-align: left;
