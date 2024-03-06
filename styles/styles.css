@@ -280,15 +280,17 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #b0c3bf, #1e434c);
+    background: linear-gradient(0deg, #b0c3bf, #1e434c);
     color: #e2e4e1;
 }
 .bubble:nth-child(3n) {
-    background: linear-gradient(150deg, #1e434c, #b0c3bf);
+    background: linear-gradient(90deg, #b0c3bf, #1e434c);
 }
-.bubble:nth-child(3n-1) {
-    background: linear-gradient(75deg, #1e434c, #b0c3bf);
-}.bubble:hover {
+.bubble:nth-child(3n) {
+    background: linear-gradient(180deg, #b0c3bf, #1e434c);
+}
+
+.bubble:hover {
     transform: scale(1.2);
 }
 
