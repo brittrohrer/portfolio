@@ -18,6 +18,28 @@ body {
 main {
     margin: 2rem 5rem 5rem 5rem;
 }
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #1e434c;
+    color: #b0c3bf;
+}
+footer {
+    height: 5rem;
+    width: 100%;
+    background: #1e434c;
+    padding-top: 1rem;
+
+}
+footer p {
+    text-align: center;
+    color: #e2e4e1;
+    font-size: 15px;
+}
 
 h1 {
     font-size: 20px;
@@ -30,32 +52,11 @@ h2 {
     color: #1e434c;
 }
 
-footer {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    color: #e2e4e1;
-    font-size: 15px;
-    background: #1e434c;
-    height: auto;
-}
 .border {
     border-style: dotted;
     border-color: #b0c3bf;
 }
 
-
-
-header {
-    display: flex;
-    position: sticky;
-    top: 0;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-    background-color: #1e434c;
-    color: #b0c3bf;
-}
 .main-navigation ul {
     list-style-type: none;
     margin: 0;
@@ -322,7 +323,9 @@ header {
 .social-links-container a:hover {
     color: #b0c3bf;
 }
-
+.contacts {
+    height: 100vh;
+}
 .contacts p {
     text-align: center;
 }
