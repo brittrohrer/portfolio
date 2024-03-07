@@ -14,7 +14,6 @@ body {
     background-size: 80px 120px;
     background-color: #f6f6f6;
 }
-
 main {
     margin: 2rem 5rem 5rem 5rem;
 }
@@ -40,7 +39,6 @@ footer p {
     color: #e2e4e1;
     font-size: 15px;
 }
-
 h1 {
     font-size: 20px;
     color: #e2e4e1;
@@ -52,10 +50,12 @@ h2 {
     color: #1e434c;
 }
 
+
 .border {
     border-style: dotted;
     border-color: #b0c3bf;
 }
+
 
 .main-navigation ul {
     list-style-type: none;
@@ -69,6 +69,7 @@ h2 {
     text-decoration: none;
     color: #b0c3bf;
     padding: 1rem;
+    font-weight: bold;
 }
 .main-navigation a:hover {
     background: #b0c3bf;
@@ -111,33 +112,30 @@ h2 {
     background-color: #1e434c;
 }
 
+
 .github-container {
     display: block;
     text-align: center;
-    text-decoration: none; 
-    color: #e2e4e1;
-    margin: 2rem 42rem;
-    padding-bottom: 1rem; 
-    background-color: #1e434c;
-    border-radius: 20%;
+    text-decoration: none;
+    margin: 1rem 43rem 2rem 43rem;  
 }
-.github-container i {
-    display: block;
-    font-size: 50px;
-    padding: 1rem;
-    color: #f6f6f6;   
+.fa-github {
+    font-size: 60px;
+    padding: .5rem;
+    color: #f6f6f6;
+    background:#1e434c;
+    border-radius: 10%;   
 }
-.github-container:hover {
+.fa-github:hover {
     background-color: #b0c3bf;
 }
-
-
 .project-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    padding: 0;
 }
 .project-section li {
     list-style-type: none;
@@ -178,7 +176,6 @@ h2 {
     margin: 0;
     opacity: 0;
 }
-
 .project-desc:hover {
     opacity: 1;
 }
@@ -216,8 +213,6 @@ h2 {
 }
 
 
-
-
 .about-box {
     display: flex;
     height: 100%;
@@ -244,9 +239,6 @@ h2 {
 }
 
 
-
-
-
 .gallery {
     overflow: auto;
     white-space: nowrap;
@@ -258,9 +250,6 @@ h2 {
   border-radius: 20%;
   padding: .5rem;
 }
-
-
-
 
 
 .skills {
@@ -289,18 +278,15 @@ h2 {
 .bubble:nth-child(3n) {
     background: linear-gradient(180deg, #b0c3bf, #1e434c);
 }
-
 .bubble:hover {
     transform: scale(1.2);
 }
-
 .edu {
     text-align: left;
     margin-left: 12rem;
     margin-right: 12rem;
     font-size: 30px;
 }
-
 
 
 .social-links-container {
@@ -318,18 +304,24 @@ h2 {
     text-decoration: none;
     color: #1e434c;
 }   
-.social-links-container i {
+.fa-linkedin {
     font-size: 80px;
     
 }
-.social-links-container a:hover {
-    color: #b0c3bf;
+.fa-linkedin:hover {
+    color: #b0c3bf; 
 }
 .contacts {
     height: 100vh;
 }
 .contacts p {
     text-align: center;
+}
+.fa-at {
+    color: #bf5d39;
+}
+.fa-phone {
+    color: #bf5d39;
 }
 .social {
     text-align: center;
