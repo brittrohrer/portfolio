@@ -99,7 +99,7 @@ h2 {
     transition: color 1s linear;
 }
 .hero-box p:hover {
-    color: #bf5d39;
+    color: #cf963c;
 }
 .hero-box figure {
     text-align: right;
@@ -116,14 +116,13 @@ h2 {
 .github-container {
     display: block;
     text-align: center;
-    text-decoration: none;
-    margin: 1rem 43rem 2rem 43rem;  
+    text-decoration: none; 
 }
 .fa-github {
     font-size: 60px;
     padding: .5rem;
     color: #f6f6f6;
-    background:#1e434c;
+    background: #cf963c;
     border-radius: 10%;   
 }
 .fa-github:hover {
@@ -194,7 +193,7 @@ h2 {
     border-radius: 10%;
 }
 .project-links a:nth-child(odd) {
-    background: #bf5d39;
+    background: #cf963c;
     color: #e2e4e1;
 }
 .project-links a:hover {
@@ -209,7 +208,7 @@ h2 {
 }
 .homepage-a {
     text-decoration: none;
-    color:#bf5d39
+    color: #cf963c;
 }
 
 
@@ -302,7 +301,7 @@ h2 {
 }
 .social-links-container a {
     text-decoration: none;
-    color: #1e434c;
+    color: #cf963c;
 }   
 .fa-linkedin {
     font-size: 80px;
@@ -316,12 +315,13 @@ h2 {
 }
 .contacts p {
     text-align: center;
+    font-size: 30px;
 }
 .fa-at {
-    color: #bf5d39;
+    color: #cf963c;
 }
 .fa-phone {
-    color: #bf5d39;
+    color: #cf963c;
 }
 .social {
     text-align: center;
