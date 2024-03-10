@@ -76,12 +76,23 @@ h2 {
 /* Hero Box Home Page*/
 .hero-box {
     display: flex;
-    height: 100vh;
-    justify-content: space-between;
+    height: 100%;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     margin: 5rem;
     margin-bottom: 7rem;
+}
+.hero-box-text-container {
+    display: block;
+    width: 60%;
+} 
+.hero-box img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: #022f32;
+    border-radius: 10px;  
 }
 .hero-box h2 {
     font-size: 5rem;
@@ -101,30 +112,25 @@ h2 {
     color: #a45244;
     font-size: 5rem;
 }
-.hero-box figure {
-    text-align: right;
-}    
-.hero-box img {
-    width: 400px;
-    height: 450px;
-    border-radius: 10px;
-    object-fit: cover;
-    background-color: #022f32;
-}
+
 
 /* My Work/Projects*/
 .my-work-section {
     background: #9bb3b4;
     padding: 2rem 0;
 }
-.github-container {
-    display: block;
+.github-link {
     text-align: center;
-    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
     padding-bottom: 2rem;
 }
+.github-link a {
+    text-decoration: none;
+    padding: 1rem;
+}
 .fa-square-github {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #ffffff;
 }
 .fa-square-github:hover {
@@ -142,15 +148,14 @@ h2 {
     list-style-type: none;
     background: #ffffff;
     box-shadow: 2px 2px 10px black;
-    height: 500px;
     border-radius: 10px;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 .project-title {
     color: black;
     text-align: center;
     font-size: 1.2rem;
-    font-weight: bold;
+    margin: .5rem 0 0 0;
 }
 .project-img-container {
     display: flex;
@@ -296,6 +301,11 @@ h2 {
 .bubble:hover {
     transform: scale(1.2);
 }
+.caution-text {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+}
 .edu {
     text-align: left;
     margin-left: 12rem;
@@ -330,7 +340,7 @@ h2 {
     justify-content: center;
 }
 .created-by-footer p {
-    text-align: center;
+    text-align: left;
     color: #ffffff;
     font-size: 1rem;
     padding: 0;
@@ -340,10 +350,15 @@ h2 {
     padding-right: 4rem;
     color: #ffffff;
     text-align: center;
+
+}
+.connect-section h3 {
+    font-weight: normal;
+    text-decoration: 2px underline;
+    text-underline-offset: 5px;
 }
 .social-links-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
