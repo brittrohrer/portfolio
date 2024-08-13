@@ -9,19 +9,21 @@
     </head>
 
     <body>
+
         <header>
             <div class="header-container">
                 <h1><img class="logo" src="images/logo.png" alt="logo">Brittni Rohrer</h1>      
-                <nav class="main-navigation">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-me.html">About Me</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="https://drive.google.com/file/d/135Ff3B9RUrcZk0YC37dvPYSEm7bgbDtr/view?usp=sharing" target="blank">Resume</a></li>
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item"><a class="navbar__link" href="index.html">Home</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="about-me.html">About Me</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="contact.html">Contact</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="https://drive.google.com/file/d/135Ff3B9RUrcZk0YC37dvPYSEm7bgbDtr/view?usp=sharing" target="blank">Resume</a></li>
                     </ul> 
                 </nav>
             </div>
         </header>
+
         <main>
             <div class="homepage-main-container">
                 <article class="hero-box light-box">
@@ -37,9 +39,10 @@
                     <div class="github-link">
                         <p>Visit my github <a href="https://github.com/brittrohrer?tab=repositories" target="_blank"><i class="fa-brands fa-square-github"></i></a></p>  
                     </div>
-                    <div>
-                        <ul class="project-section">
-                            <li><p class="project-title">My First Webpage</p>
+                    <div class="project">
+                        <ul class="project__list">
+                            <li class="project__item">
+                                <p class="project-title">My First Webpage</p>
                                 <div class="project-img-container">
                                     <img src="images/assignment-01-mockup.jpg" alt="assignment-01 in use thumbnail">
                                     <p class="project-desc">My first webpage that talks about what it's like growing up in Michigan.</p>
@@ -50,7 +53,8 @@
                                 </div>
                         
                             </li>
-                            <li><p class="project-title">Kitties to Go</p>
+                            <li class="project__item">
+                                <p class="project-title">Kitties to Go</p>
                                 <div class="project-img-container">
                                     <img src="https://live.staticflickr.com/1865/44734799571_8d071053aa_b.jpg" alt="picture of Future project 1">
                                     <p class="project-desc">Project 1 Description Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita at doloribus, 
@@ -61,7 +65,8 @@
                                     <a href="https://github.com/brittrohrer/kitties-to-go" target="blank">View Code</a>
                                 </div>
                             </li>
-                            <li><p class="project-title">Straight to the Point Archery</p>
+                            <li class="project__item">
+                                <p class="project-title">Straight to the Point Archery</p>
                                 <div class="project-img-container">
                                     <img src="https://live.staticflickr.com/861/39726353110_7df4222bcb_b.jpg" alt="picture of Future project 2"> 
                                     <p class="project-desc">Project 2 Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cumque minus distinctio 
@@ -75,6 +80,7 @@
                         </ul>
                     </div>
                 </article>
+                
                 <article class="about-me-homepage">
                     <h2>About Me</h2>
                     <p>I am an archaeolgist, GIS analyst, and future front-end web developer from Northern Michigan.</p>

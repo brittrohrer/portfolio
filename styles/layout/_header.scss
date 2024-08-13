@@ -1,0 +1,36 @@
+header {
+    grid-area: header;
+}
+/* Header and Main Navigation */
+.header-container {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;  
+    align-items:center;
+    background-color: $primary-dark;
+    color: $white;
+    padding: 1rem;
+}
+header h1 {
+    font-size: 2rem;
+    color: $white;
+}
+header img {
+    height: 4rem;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: $primary-dark;
+}
+
+.light-box {
+    background: $white;
+    margin: 5rem 0 5rem 0;
+    padding: 1rem;
+    border: 3px solid $primary-light;
+    border-radius: 10px;
+    box-shadow: 2rem 2rem $primary-light;
+}

@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box; 
+ }
+ 
+ 
+ main {
+     grid-area: main;
+     padding: 1rem 0 5rem 0;
+ }
+ footer {
+     grid-area: footer;
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     background: $primary-dark;
+     padding: 1rem 0;
+     margin-top: 5rem;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* About Me Page*/
+ .about-box {
+     display: flex;
+     padding: 1rem;
+     justify-content: space-evenly;
+     align-items: center;
+     margin: 2rem 5rem 5rem 5rem;
+ }
+ .about-text {
+     display: block;
+     width: 60%;
+ }
+ .about-box img {
+     width: 30%;
+     border-radius: 10px;
+     object-fit: cover;
+ }
+ .about-box p {
+     font-size: 2rem;
+ }
+ .about-box h2 {
+     font-size: 3rem;
+     color: $primary-dark;
+     text-align: left;
+     padding-top: 0;
+ }
+ /* Education Section*/
+ .education ul {
+     text-align: left;
+     margin-left: 12rem;
+     margin-right: 12rem;
+     font-size: 2rem;
+ }
+ 
+ /* Skills Section*/
+ .skills-section {
+     background: $secondary-light;
+     padding: 2rem 0;
+ }
+ .skills {
+     list-style-type:none;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     padding: 0;
+ }
+ .bubble {
+     border: 5px solid $primary-dark;
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+     padding: 1rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: linear-gradient(0deg, $secondary-light, $white);
+     color: $black;
+ }
+ .bubble:nth-child(3n) {
+     background: linear-gradient(90deg, $secondary-light, $white);
+     border-color: $primary-light;
+ }
+ .bubble:nth-child(3n-1) {
+     background: linear-gradient(180deg, $secondary-light, $white);
+     border-color: $white;
+ }
+ .bubble:hover {
+     transform: scale(1.2);
+ }
+ .caution-text {
+     text-align: center;
+     color: $white;
+     font-size: 1rem;
+ }
+ /*Image Gallery*/
+ .gallery {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     gap: 1rem;
+ }
+ .gallery img {
+     width: 100%;
+     object-fit: cover;
+     aspect-ratio: 4/3;
+     border-radius: 0 20%;
+ }
+ .gallery img:nth-of-type(2n) {
+     border-radius: 20% 0;
+ }
+ .gallery img:nth-of-type(2n-1):hover {
+     translate: 20%;
+     transform: scale(1.5);
+ }
+ .gallery img:nth-of-type(2n):hover {
+     translate: -20%;
+     transform: scale(1.5);
+ }
+ /* Scroll Images About Me Page
+ .gallery {
+     overflow: auto;
+     white-space: nowrap;
+ }
+ .gallery img {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 20px;
+   padding: .5rem;
+ }*/
+ 
+ 
+ 
+ 
+ 
+ 
