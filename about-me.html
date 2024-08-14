@@ -10,32 +10,36 @@
     <body>
         <header>
             <div class="header-container">
-                <h1><img class="logo" src="images/logo.png" alt="logo">About Me</h1>      
-                <nav class="main-navigation">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-me.html">About Me</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="https://drive.google.com/file/d/135Ff3B9RUrcZk0YC37dvPYSEm7bgbDtr/view?usp=sharing" target="blank">Resume</a></li>
+                <h1><img class="logo" src="images/logo.png" alt="logo">Brittni Rohrer</h1>      
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item"><a class="navbar__link" href="index.html">Home</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="about-me.html">About Me</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="contact.html">Contact</a></li>
+                        <li class="navbar__item"><a class="navbar__link" href="https://drive.google.com/file/d/135Ff3B9RUrcZk0YC37dvPYSEm7bgbDtr/view?usp=sharing" target="blank">Resume</a></li>
                     </ul> 
                 </nav>
             </div>
         </header>
+        
         <main>
-            <article class="about-box light-box">
-                <div class="about-text">
-                    <h2>I'm Brittni!</h2>
-                    <p>I grew up in Northern Michigan. My love for travel, experiencing different cultures, and design guided me to my degrees in Archaeology and Geographic Information Systems (GIS).</p>
-                    <p>During my college years I studied abroad in Belize, where I specialized in Maya Archaeology. After my return to the US, I participated on a few more archeological projects within Michigan. 
-                    Though I'm not currently working on any digs, I am still traveling whenever possible. Including, traveling solo to Costa Rica to learn to surf.</p>
-                    <p>My eye for design came into play in GIS. Although, GIS is more than just designing and creating maps. It is effectively displaying geographical/spatial data for the audience to use and 
-                    understand. This is also a useful skill to contribute to my future in web development.</p>
+            <article class="about-section light-box">
+                <div class="about-content">
+                    <h2 class="about-section__title">I'm Brittni!</h2>
+                    <p class="about-content__text" >I grew up in Northern Michigan. My love for travel, experiencing different cultures, and design guided me to my degrees in Archaeology and Geographic Information Systems (GIS).
+                    <br><br>
+                    During my college years I studied abroad in Belize, where I specialized in Maya Archaeology. After my return to the US, I participated on a few more archeological projects within Michigan. 
+                    Though I'm not currently working on any digs, I am still traveling whenever possible. Including, traveling solo to Costa Rica to learn to surf.
+                    <br><br>
+                    My eye for design came into play in GIS. Although, GIS is more than just designing and creating maps. It is effectively displaying geographical/spatial data for the audience to use and 
+                    understand. This is also a useful skill to contribute to my future in web development.
+                    </p>
                 </div>
-                <img src="images/head-pic.jpg" alt="picture of me" >
+                <img class="about-section__head-shot" src="images/head-pic.jpg" alt="picture of me" >
             </article>
-            <article class="education">
+            <article class="education-section">
                 <h2>Education</h2>
-                <ul>
+                <ul class="education-section__list">
                     <li>Associate of Arts - North Central Michigan College</li>
                     <li>Bachelor of Science - Central Michigan University<br>
                         Concentration in Geographic Information Systems<br>
@@ -45,20 +49,20 @@
                 </ul>
             </article>
             <article class="skills-section">
-                <h2>Skills</h2>
+                <h2 class="skills-section__title">Skills</h2>
                 <ul class="skills">
-                    <li class="bubble">HTML</li>
-                    <li class="bubble">CSS</li>
-                    <li class="bubble">Git</li>
-                    <li class="bubble">Terminal</li>
-                    <li class="bubble">ArcGIS</li>
-                    <li class="bubble">*Java</li>
-                    <li class="bubble">*SQL</li>
-                    <li class="bubble">*R</li>
+                    <li class="skills__bubble">HTML</li>
+                    <li class="skills__bubble">CSS</li>
+                    <li class="skills__bubble">Git</li>
+                    <li class="skills__bubble">Terminal</li>
+                    <li class="skills__bubble">ArcGIS</li>
+                    <li class="skills__bubble">*Java</li>
+                    <li class="skills__bubble">*SQL</li>
+                    <li class="skills__bubble">*R</li>
                 </ul>
-                <p class="caution-text">* Lesser known</p>
+                <p class="skills-section__text">* Lesser known</p>
             </article>
-            <article>
+            <article class="gallery-section">
                 <h2>Get to know me through pictures</h2>
                 <figure class="gallery">
                     <img src="images/CP2.jpeg" alt="Standing at Cahal Pech, Belize">

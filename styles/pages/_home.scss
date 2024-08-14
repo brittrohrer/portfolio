@@ -77,66 +77,68 @@
         border-radius: 10px;
         padding-bottom: 2rem;
     }
+    &__title {
+        color: $black;
+        text-align: center;
+        font-size: 1.2rem;
+        margin: .5rem 0 0 0;
+    }
+    &__content {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+    }
+    &__img {  
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        object-fit: cover;
+        position: relative;
+    }
+    &__desc {
+        display: flex;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        background: #00000095;
+        color: $white;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        margin: 0;
+        opacity: 0;
+    }
+    &__desc:hover {
+        opacity: 1;
+    }
+    &__links {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
-.project-title {
-    color: $black;
-    text-align: center;
-    font-size: 1.2rem;
-    margin: .5rem 0 0 0;
-}
-.project-img-container {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    
-}
-.project-img-container img{  
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    object-fit: cover;
-    position: relative;
-}
-.project-desc {
-    display: flex;
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    background: #00000095;
-    color: $white;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    margin: 0;
-    opacity: 0;
-}
-.project-desc:hover {
-    opacity: 1;
-}
-.project-links {
-    display: flex;
-    justify-content: space-around;
-
-}
-.project-links a {
+.project-a  {
     text-decoration: none;
-    background: $secondary-dark;
-    color: $white;
     border-radius: 10px;
     font-size: 1rem;
     padding: 1rem;
     text-align: center;
-}
-.project-links a:nth-child(odd) {
-    background: $primary-lighter;
-    color: $primary-dark;
-}
-.project-links a:hover {
-    background: $primary-dark;
+
+    &:hover {
+        background: $primary-dark;
     color: $white;
+    }
+
+    &--live {
+        background: $primary-lighter;
+        color: $primary-dark;
+    }
+    &--code {
+        background: $secondary-dark;
+        color: $white;
+    }
 }
 
 /* About Me Homepage Section*/
